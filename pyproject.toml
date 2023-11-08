@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "decorator-lesson"
+version = "0.1.0"
+description = "lesson tasks"
+authors = ["Kirill8769 <tkkrozn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
