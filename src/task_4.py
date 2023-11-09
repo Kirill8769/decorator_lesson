@@ -3,7 +3,7 @@
 
 def shorten_word(func):
     def wrapper(*args, **kwargs):
-        result = func(*args, **kwargs)
+        result: str = func(*args, **kwargs)
         return " ".join([word[:4] for word in result.split()])
 
     return wrapper
